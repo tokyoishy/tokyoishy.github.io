@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/tokyoishy.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/tokyoishy.github.io/static/js/main.529f79da.js",
-    "static/js/787.128fc6e9.chunk.js": "/tokyoishy.github.io/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/tokyoishy.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/tokyoishy.github.io/static/css/main.e091def6.css",
+    "main.js": "/tokyoishy.github.io/static/js/main.15656f98.js",
+    "static/media/memoji_2.mp4": "/tokyoishy.github.io/static/media/memoji_2.59839ba788ecf80c1046.mp4",
+    "static/media/passkeysblog.png": "/tokyoishy.github.io/static/media/passkeysblog.4b6a144032ee6f8bbd38.png",
+    "static/media/laptop.jpg": "/tokyoishy.github.io/static/media/laptop.45ddf500e572fb2f1d35.jpg",
+    "static/media/pihole.png": "/tokyoishy.github.io/static/media/pihole.dda55c160a40f414d4ec.png",
     "index.html": "/tokyoishy.github.io/index.html",
-    "main.073c9b0a.css.map": "/tokyoishy.github.io/static/css/main.073c9b0a.css.map",
-    "main.529f79da.js.map": "/tokyoishy.github.io/static/js/main.529f79da.js.map",
-    "787.128fc6e9.chunk.js.map": "/tokyoishy.github.io/static/js/787.128fc6e9.chunk.js.map"
+    "main.e091def6.css.map": "/tokyoishy.github.io/static/css/main.e091def6.css.map",
+    "main.15656f98.js.map": "/tokyoishy.github.io/static/js/main.15656f98.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.529f79da.js"
+    "static/css/main.e091def6.css",
+    "static/js/main.15656f98.js"
   ]
 }
