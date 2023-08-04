@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/tokyoishy.github.io/static/css/main.e091def6.css",
-    "main.js": "/tokyoishy.github.io/static/js/main.15656f98.js",
-    "static/media/memoji_2.mp4": "/tokyoishy.github.io/static/media/memoji_2.59839ba788ecf80c1046.mp4",
-    "static/media/passkeysblog.png": "/tokyoishy.github.io/static/media/passkeysblog.4b6a144032ee6f8bbd38.png",
-    "static/media/laptop.jpg": "/tokyoishy.github.io/static/media/laptop.45ddf500e572fb2f1d35.jpg",
-    "static/media/pihole.png": "/tokyoishy.github.io/static/media/pihole.dda55c160a40f414d4ec.png",
-    "index.html": "/tokyoishy.github.io/index.html",
-    "main.e091def6.css.map": "/tokyoishy.github.io/static/css/main.e091def6.css.map",
-    "main.15656f98.js.map": "/tokyoishy.github.io/static/js/main.15656f98.js.map"
+    "main.css": "./static/css/main.e091def6.css",
+    "main.js": "./static/js/main.6fd02fc7.js",
+    "static/media/memoji_2.mp4": "./static/media/memoji_2.59839ba788ecf80c1046.mp4",
+    "static/media/passkeysblog.png": "./static/media/passkeysblog.4b6a144032ee6f8bbd38.png",
+    "static/media/laptop.jpg": "./static/media/laptop.45ddf500e572fb2f1d35.jpg",
+    "static/media/pihole.png": "./static/media/pihole.dda55c160a40f414d4ec.png",
+    "index.html": "./index.html",
+    "main.e091def6.css.map": "./static/css/main.e091def6.css.map",
+    "main.6fd02fc7.js.map": "./static/js/main.6fd02fc7.js.map"
   },
   "entrypoints": [
     "static/css/main.e091def6.css",
-    "static/js/main.15656f98.js"
+    "static/js/main.6fd02fc7.js"
   ]
 }
