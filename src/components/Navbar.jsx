@@ -11,14 +11,14 @@ const Navbar = () => {
 
     return (
         <div className='navbar'>
-            <div className=' flex justify-between items-center max-w-[1240px] mx-auto px-4 text-black'>
+            <div className=' flex justify-between items-center max-w-[1240px] mx-auto px-4'>
                 <h1 className='text-[white] w-full text-3xl font-bold'>ismaeel</h1>
                 <ul className='hidden md:flex'>
-                    <a href="#home"><li className='p-4'>home</li></a>
-                    <a href="#about"><li className='p-4'>about</li></a>
-                    <a href="#experience"><li className='p-4'>experience</li></a>
-                    <a href="#recent"><li className='p-4'>projects</li></a>
-                    <a href="#contact"><li className='p-4'>contact</li></a>
+                    <a href="#home"><li className='p-4 text-white'>home</li></a>
+                    <a href="#about"><li className='p-4 text-white'>about</li></a>
+                    <a href="#experience"><li className='p-4 text-white'>experience</li></a>
+                    <a href="#recent"><li className='p-4 text-white'>projects</li></a>
+                    <a href="#contact"><li className='p-4 text-white'>contact</li></a>
                 </ul>
                 <div onClick={handleNav} className='block md:hidden'>
                     {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
