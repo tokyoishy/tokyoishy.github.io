@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "./static/css/main.e091def6.css",
-    "main.js": "./static/js/main.6fd02fc7.js",
+    "main.js": "./static/js/main.d3fea702.js",
     "static/media/memoji_2.mp4": "./static/media/memoji_2.59839ba788ecf80c1046.mp4",
     "static/media/passkeysblog.png": "./static/media/passkeysblog.4b6a144032ee6f8bbd38.png",
     "static/media/laptop.jpg": "./static/media/laptop.45ddf500e572fb2f1d35.jpg",
     "static/media/pihole.png": "./static/media/pihole.dda55c160a40f414d4ec.png",
     "index.html": "./index.html",
     "main.e091def6.css.map": "./static/css/main.e091def6.css.map",
-    "main.6fd02fc7.js.map": "./static/js/main.6fd02fc7.js.map"
+    "main.d3fea702.js.map": "./static/js/main.d3fea702.js.map"
   },
   "entrypoints": [
     "static/css/main.e091def6.css",
-    "static/js/main.6fd02fc7.js"
+    "static/js/main.d3fea702.js"
   ]
 }
