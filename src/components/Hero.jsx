@@ -3,12 +3,13 @@ import Typed from 'react-typed';
 import memoji from '../assets/memoji_2.mp4';
 import styles from '../index.css';
 import down_arrow from '../assets/down-arrow.png';
-
+import {Helmet} from 'react-helmet'
 
 const Hero = () => {
 
     return (
         <div id="home" className='text-black'>
+            <meta name="viewport" content="width=device-width"></meta>
             <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
                 <div className='memoji mx-auto'>
                     <video autoPlay loop muted src={memoji} width="300" height="300" autoplay="true" playsinline="true" />
