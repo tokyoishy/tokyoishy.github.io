@@ -3,7 +3,7 @@ import laptop_image from '../assets/laptop.jpg';
 
 const About = () => {
     return (
-        <div id="about" className='w-full bg-white py-16 px-4'>
+        <div id="about" className='w-full bg-white py-16'>
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
                 <img className='w-[500px]' src={laptop_image} alt="/" />
                 <div className='flex flex-col justify-center'>

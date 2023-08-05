@@ -2,19 +2,24 @@ import React from 'react';
 import Typed from 'react-typed';
 import memoji from '../assets/memoji_2.mp4';
 import styles from '../index.css';
+import down_arrow from '../assets/down-arrow.png';
 
 
 
 const Hero = () => {
+
     return (
         <div id="home" className='text-black'>
             <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
                 <div className='memoji mx-auto'>
                     <video autoPlay loop muted src={memoji} width="300" height="300" autoplay="true" />
                 </div>
-                {/* <p className='text-[black] font-bold p-2'>cyber student</p> */}
                 <div className='box'>
-                    <h1 className='herotext md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>hey there!</h1>
+                    <div className='flex text-center mx-auto justify-center py-5'>
+                        <img className=' downarrow w-[50px]' src={down_arrow} alt="/" />
+                    </div>
+
+                    <h1 className='herotext md:text-7xl sm:text-6xl text-4xl font-bold md:py-3 sm:py-5'>hey there!</h1>
                 </div>
                 <div className='flex justify-center items-center'>
                     <p className='text-[black] md:text-5xl sm:text-4xl text-xl font-bold py-4'>i work with</p>
@@ -29,6 +34,7 @@ const Hero = () => {
             </div>
         </div>
     )
+
 }
 
 export default Hero
