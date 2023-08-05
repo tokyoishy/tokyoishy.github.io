@@ -2,9 +2,9 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <div id="experience" className='w-full py-[10rem] px-4 bg-[blanchedalmond]'>
-        <div className='box-recent text-center pd-4px flex-col'>
-            <h1 className='text-[white] md:text-5xl sm:text-4xl text-3xl font-bold md:py-6 '>experience</h1>
+    <div id="experience" className='w-full py-[5rem] px-4 bg-[blanchedalmond]'>
+        <div className='box-recent  text-center pd-40px w-20 mx-40'>
+            <h1 className='md:text-5xl sm:text-4xl text-3xl font-bold md:py-6 '>experience</h1>
         </div>
         <div className='container'>
             <div className='timeline'>
