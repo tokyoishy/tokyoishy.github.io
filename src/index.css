@@ -226,6 +226,15 @@ html {
   .box-recent {
     height: 100px;
   }
+
+  .logo {
+    padding-top: 10px;
+  }
+
+  .sandwich {
+    padding-top:  10px;
+    padding-right: 10px;
+  }
 }
 
 
@@ -282,21 +291,17 @@ html {
     border-radius: 50px;
     height: 100px;
   }
-
   .herotext {
     visibility: hidden;
   }
-
   .downarrow {
     visibility: visible;
   }
-
   .memoji {
     height: 200px;
     width: 200px;
     margin-top: 5px;
   }
-
 }
 
 

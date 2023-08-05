@@ -20,11 +20,11 @@ const Navbar = () => {
                     <a className= 'navitem' href="#recent"><li className='p-4 text-white'>projects</li></a>
                     <a className= 'navitem' href="#contact"><li className='p-4 text-white'>contact</li></a>
                 </ul>
-                <div onClick={handleNav} className='block md:hidden'>
+                <div onClick={handleNav} className='sandwich block md:hidden'>
                     {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
                 </div>
                 <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-grey-900 bg-white ease-in-out duration-500' : 'fixed left-[-100%]'}>
-                    <h1 className='text-[black] w-full text-3xl font-bold m-4'>ismaeel</h1>
+                    <h1 className='text-[black] w-full text-3xl font-bold m-4 '>ismaeel</h1>
                     <ul className='p-4 lowercase'>
                         <a href="#home"><li className='p-4 border-b'>home</li></a>
                         <a href="#about" onClick={handleNav}><li className='p-4 border-b'>about</li></a>
