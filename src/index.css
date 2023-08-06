@@ -64,11 +64,17 @@ body {
 
 .box {
   background-color: black;
-  margin: 150px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border-radius: 100px;
-  min-width: 100px;
+  border-radius: 50px;
+  color: black;
+  width: 50%;
+  height: 100px;
+  color: white;
+  min-width: 250px;
+  justify-content: space-around;
+  margin-left: 35%;
+  position: relative;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .about {
@@ -77,9 +83,9 @@ body {
 
 .herotext {
   background-color: #f3ec78;
-  background-image: linear-gradient(45deg, #ffffff, #CCEEBC);
+  background-image: linear-gradient(45deg, #ffffff, #aaf588);
   background-size: 100%;
-  margin-top: -25px;
+  padding-top: 20px;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
@@ -210,6 +216,12 @@ html {
 
 
 @media only screen and (max-width: 767px){
+
+  .herotext {
+    padding-top: 30px;
+    font-size: 2.5rem;
+  }
+
   .about-text {
     padding-left: 10px;
     padding-right: 10px;
@@ -260,19 +272,6 @@ html {
 
 
 @media only screen and (max-width: 639px){
-  .box {
-    margin: 150px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 50px;
-    height: 100px;
-  }
-
-  .herotext {
-    margin-top: -15px;
-    font-size: 50px;
-  }
-
   .downarrow {
     visibility: hidden;
   }
@@ -284,18 +283,11 @@ html {
 }
 
 @media only screen and (max-width: 591px){
-  .box {
-    margin: 150px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 50px;
-    height: 100px;
-  }
   .herotext {
-    visibility: hidden;
+    visibility: visible;
   }
   .downarrow {
-    visibility: visible;
+    visibility: hidden;
   }
   .memoji {
     height: 200px;
@@ -306,12 +298,6 @@ html {
 
 
 @media only screen and (min-width: 640px){
-  .box {
-    margin: 150px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    height: 130px;
-  }
   .downarrow {
     visibility: hidden;
   }
