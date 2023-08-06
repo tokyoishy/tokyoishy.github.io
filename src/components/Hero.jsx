@@ -22,7 +22,10 @@ const Hero = () => {
 
     return (
         <div id="home" className='text-black'>
-            <meta name="viewport" content="width=device-width"></meta>
+            <Helmet>
+                <meta name="viewport" content="width=device-width"></meta>
+                <meta name="robots" content="noindex"></meta>
+            </Helmet>
             <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
                 <div className='memoji mx-auto'>
                     <video autoPlay loop muted src={memojis()} width="300" height="300" autoplay="true" playsinline="true" />
