@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.6243de69.css",
-    "main.js": "./static/js/main.ab2b9881.js",
+    "main.js": "./static/js/main.c27948d0.js",
     "static/media/memoji_1.mp4": "./static/media/memoji_1.63b54f267940720c7ebd.mp4",
     "static/media/memoji_2.mp4": "./static/media/memoji_2.59839ba788ecf80c1046.mp4",
     "static/media/memoji_3.mp4": "./static/media/memoji_3.9082dbb2d269cb2868ac.mp4",
@@ -13,10 +13,10 @@
     "static/media/Poppins-SemiBold.ttf": "./static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
     "index.html": "./index.html",
     "main.6243de69.css.map": "./static/css/main.6243de69.css.map",
-    "main.ab2b9881.js.map": "./static/js/main.ab2b9881.js.map"
+    "main.c27948d0.js.map": "./static/js/main.c27948d0.js.map"
   },
   "entrypoints": [
     "static/css/main.6243de69.css",
-    "static/js/main.ab2b9881.js"
+    "static/js/main.c27948d0.js"
   ]
 }
