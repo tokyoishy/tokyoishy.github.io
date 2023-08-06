@@ -26,11 +26,11 @@ const Navbar = () => {
                 <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-grey-900 bg-white ease-in-out duration-500' : 'fixed left-[-100%]'}>
                     <h1 className='text-[black] w-full text-3xl font-bold m-4 '>ismaeel</h1>
                     <ul className='p-4 lowercase'>
-                        <a href="#home"><li className='p-4 border-b'>home</li></a>
+                        <a href="#home" onClick={handleNav}><li className='p-4 border-b'>home</li></a>
                         <a href="#about" onClick={handleNav}><li className='p-4 border-b'>about</li></a>
-                        <a href="#experience"><li className='p-4 border-b'>experience</li></a>
-                        <a href="#recent"><li className='p-4 border-b'>projects</li></a>
-                        <a className='anchor' href="#contact"><li className='p-4 border-b'>contact</li></a>
+                        <a href="#experience" onClick={handleNav}><li className='p-4 border-b'>experience</li></a>
+                        <a href="#recent" onClick={handleNav}><li className='p-4 border-b'>projects</li></a>
+                        <a className='anchor' href="#contact" onClick={handleNav}><li className='p-4 border-b'>contact</li></a>
                     </ul>
                 </div>
             </div>
