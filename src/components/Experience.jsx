@@ -34,7 +34,7 @@ const Experience = () => {
                     </li>
                     <li>
                         <div className='timeline-content'>
-                            <h2 class="date">05/2023 - present</h2>
+                            <h2 class="date">05/2023 - 09/2023</h2>
                             <h1>Government of Canada</h1>
                             <p>Cyber Security Analyst</p>
                         </div>
