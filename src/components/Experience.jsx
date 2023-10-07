@@ -39,6 +39,13 @@ const Experience = () => {
                             <p>Cyber Security Analyst</p>
                         </div>
                     </li>
+                    <li>
+                        <div className='timeline-content'>
+                            <h2 class="date">09/2023 - present</h2>
+                            <h1>Government of Canada</h1>
+                            <p>Applied Researcher</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>

@@ -348,6 +348,10 @@ html {
     transform: translate(-50%, -50%);
     left: -30px;
   }
+  .timeline ul li:nth-child(odd)::after{
+    transform: translate(50%, -50%);
+    right: -30px;
+  }
   .timeline ul li:hover:after{
     background-color: white;
     transition: 0.5s ease-in-out;
