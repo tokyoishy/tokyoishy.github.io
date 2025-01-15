@@ -1,9 +1,9 @@
 ---
-title: /
-layout: about
-permalink: /
+title: /about
+layout: page
+permalink: /about/
 ---
 
-# ismaeel
+# about me
 
-test
+cyberrrr
