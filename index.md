@@ -4,6 +4,6 @@ layout: home
 permalink: /
 ---
 
-# Lorem ipsum no more
+# ismaeel
 
-This is a test
+Welcome to my blog! I will be writing posts on various events, opinions, news, etc.
